@@ -27,14 +27,25 @@
       background: white;
       border-radius: 12px;
     }
-    h2 { color: #176bdb; margin-top: 28px; }
-    a { color: #176bdb; }
+    h2 {
+      color: #176bdb;
+      margin-top: 28px;
+    }
+    a {
+      color: #176bdb;
+    }
+    li {
+      margin-bottom: 8px;
+    }
     footer {
       text-align: center;
       padding: 25px;
     }
     @media (max-width: 600px) {
-      main { margin: 12px; padding: 20px; }
+      main {
+        margin: 12px;
+        padding: 20px;
+      }
     }
   </style>
 </head>
@@ -45,7 +56,7 @@
   </header>
 
   <main>
-    <p><strong>Effective Date:</strong> 22 November 2026</p>
+    <p><strong>Effective Date:</strong> 26 November 2026</p>
     <p><strong>Developer:</strong> Pravin chavan</p>
     <p><strong>Contact:</strong>
       <a href="mailto:cpravin456@gmail.com">
@@ -58,109 +69,241 @@
       Smart Scanner is an Android application for scanning
       documents, cropping images, recognizing text, creating
       and editing PDF files, and saving or sharing documents.
-      This policy explains how information is handled.
+      This policy explains how information is collected,
+      used, shared, retained and protected.
     </p>
 
-    <h2>2. Document Storage</h2>
+    <h2>2. User Accounts</h2>
     <p>
-      Smart Scanner is designed to store saved scanned documents
-      and PDF files locally on the user's device. The app does
-      not intentionally upload these documents to a cloud server
-      operated by the developer.
+      Smart Scanner does not require users to create an
+      account or sign in to access its functionality.
     </p>
 
-    <h2>3. Camera and Gallery</h2>
+    <h2>3. Document Storage</h2>
     <p>
-      Users can capture document images or select images from
-      their device. Smart Scanner uses Google ML Kit Document
-      Scanner and image-cropping functionality. Temporary files
-      may be created during scanning and processing.
+      Smart Scanner is designed to store saved scanned
+      documents and PDF files locally on the user's device.
+      The app does not intentionally upload these documents
+      to a cloud server operated by the developer.
     </p>
 
-    <h2>4. Text Recognition (OCR)</h2>
+    <h2>4. Camera and Gallery</h2>
     <p>
-      Smart Scanner uses Google ML Kit Text Recognition to
-      recognize document text and suggest filenames. A temporary
-      image is created for this process, and the app attempts
-      to delete that temporary OCR image afterward.
+      Users can capture document images or select images
+      from their device. Smart Scanner uses Google ML Kit
+      Document Scanner and image-cropping functionality.
+      Document scanning is performed on the device.
+      Temporary files may be created during processing.
     </p>
 
-    <h2>5. PDF Creation and Editing</h2>
+    <h2>5. Text Recognition (OCR)</h2>
+    <p>
+      Smart Scanner uses Google ML Kit Text Recognition
+      to recognize document text and suggest filenames.
+      Text recognition is performed on the device.
+      A temporary image may be created for this process,
+      and the app attempts to delete that image afterward.
+    </p>
+    <p>
+      Google ML Kit may transmit technical usage and
+      performance metrics to Google for service maintenance,
+      troubleshooting, improvement and abuse prevention.
+      According to Google's ML Kit documentation, document
+      inputs and recognition results are processed locally
+      rather than uploaded to Google for recognition.
+    </p>
+
+    <h2>6. PDF Creation and Editing</h2>
     <p>
       Smart Scanner allows users to create PDFs from scanned
       images and perform supported PDF editing operations
       using document data available to the application.
     </p>
 
-    <h2>6. Saving and Sharing</h2>
+    <h2>7. Saving and Sharing</h2>
     <p>
       Users can save PDFs to a destination they select using
-      Android's document picker and share PDFs through Android's
-      sharing functionality.
+      Android's document picker and share PDFs through
+      Android's sharing functionality.
     </p>
     <p>
-      If users select a cloud storage provider or another app,
-      that provider may process, store, or upload the document
-      according to its own privacy practices.
+      If users select a cloud storage provider or another
+      application, that provider may process, store or upload
+      documents according to its own privacy practices.
+      Android backup services may also handle app data
+      depending on device settings and backup configuration.
     </p>
 
-    <h2>7. Advertising and Third-Party Services</h2>
+    <h2>8. Advertising and Third-Party Services</h2>
     <p>
-      Smart Scanner integrates the Google Mobile Ads SDK.
-      The current development version uses Google's official
-      test advertisements, which do not generate revenue.
+      Smart Scanner integrates the Google Mobile Ads SDK
+      (AdMob). The current test version uses Google's
+      official test advertisements, which do not generate
+      advertising revenue.
     </p>
     <p>
-      Google advertising technology may process information
-      such as IP addresses, device identifiers, advertising
-      identifiers, app interactions, and diagnostic information,
-      depending on SDK behavior, device settings, and
-      applicable privacy choices.
+      Google's advertising SDK can automatically collect
+      and share the following categories of information:
+    </p>
+    <ul>
+      <li>
+        <strong>Approximate location:</strong>
+        General geographic information inferred from
+        the device's IP address.
+      </li>
+      <li>
+        <strong>App interactions:</strong>
+        Information about application launches, taps
+        and advertising interactions.
+      </li>
+      <li>
+        <strong>Diagnostics:</strong>
+        Technical information about application and
+        SDK performance.
+      </li>
+      <li>
+        <strong>Device or other identifiers:</strong>
+        Android advertising identifiers, app set
+        identifiers and other applicable identifiers.
+      </li>
+    </ul>
+    <p>
+      This information may be processed and shared by
+      Google's advertising services for advertising,
+      measurement, analytics, fraud detection and security.
     </p>
     <p>
-      Smart Scanner also uses Google ML Kit for document scanning
-      and text recognition. Google services may process technical
-      information associated with their operation.
+      Smart Scanner does not request Android precise
+      location or approximate location permissions in
+      the current release. However, an approximate
+      geographic location may be inferred from an IP address.
     </p>
     <p>
-      Read the
-      <a href="https://policies.google.com/privacy">
-        Google Privacy Policy
-      </a>.
+      Users may manage or delete their advertising
+      identifier through supported Android privacy settings.
+      These controls do not necessarily stop all SDK
+      data collection.
     </p>
+    <p>
+      For more information:
+    </p>
+    <ul>
+      <li>
+        <a href="https://policies.google.com/privacy">
+          Google Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="https://policies.google.com/technologies/ads">
+          Google Advertising Privacy Information
+        </a>
+      </li>
+      <li>
+        <a href="https://developers.google.com/ml-kit/terms">
+          Google ML Kit Terms and Privacy
+        </a>
+      </li>
+      <li>
+        <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">
+          Google Mobile Ads Data Disclosure
+        </a>
+      </li>
+    </ul>
 
-    <h2>8. Device Permissions</h2>
+    <h2>9. Device Permissions</h2>
     <p>
       Smart Scanner includes permissions supporting network
-      connectivity, advertising-related services, and certain
-      Android system operations. Camera capture, image selection,
-      saving, and sharing use supported Android components.
+      connectivity, advertising-related services and
+      certain Android system operations. Camera capture,
+      image selection, saving and sharing use supported
+      Android components.
     </p>
 
-    <h2>9. Data Security</h2>
+    <h2>10. Data Security</h2>
     <p>
-      Smart Scanner is designed to keep saved documents on
-      the user's device unless they choose to export or share
-      them. Users should protect their devices and exercise
-      care when handling sensitive documents.
+      Smart Scanner is designed to keep saved documents
+      on the user's device unless users choose to export
+      or share them, or device backup settings apply.
     </p>
-
-    <h2>10. Children's Privacy</h2>
     <p>
-      Smart Scanner is not specifically designed for children.
-      The developer will review applicable privacy, consent,
-      and advertising requirements before enabling production
-      advertisements.
+      According to Google's documentation, user data
+      transmitted by the Google Mobile Ads SDK is
+      protected in transit using Transport Layer Security
+      (TLS).
     </p>
-
-    <h2>11. Policy Updates</h2>
     <p>
-      This policy may be updated when Smart Scanner's features,
-      third-party services, or data practices change.
-      The effective date will be revised accordingly.
+      Users should protect their devices with appropriate
+      security measures and exercise care when storing
+      or sharing sensitive documents. No storage or
+      transmission method can guarantee absolute security.
     </p>
 
-    <h2>12. Contact</h2>
+    <h2>11. Data Retention and Deletion</h2>
+    <p>
+      Saved documents are retained locally until users
+      delete them or the relevant application data or
+      storage is removed.
+    </p>
+    <p>
+      Users can remove saved documents using the
+      application's document management features.
+      Separately exported copies must be managed at
+      their respective storage locations.
+    </p>
+    <p>
+      Temporary processing files may remain until
+      application or Android cleanup occurs.
+    </p>
+    <p>
+      Information collected by third-party Google
+      services is retained according to Google's
+      applicable data retention policies. The developer
+      does not directly control Google's retention periods.
+    </p>
+    <p>
+      Smart Scanner currently does not provide a dedicated
+      mechanism for requesting deletion of information
+      collected by third-party SDKs. Users may consult
+      Google's privacy controls and retention information.
+    </p>
+    <p>
+      <a href="https://policies.google.com/technologies/retention">
+        Google Data Retention Policy
+      </a>
+      |
+      <a href="https://myaccount.google.com/data-and-privacy">
+        Google Data and Privacy Controls
+      </a>
+    </p>
+    <p>
+      Users should back up important documents before
+      removing application data or uninstalling the app,
+      because locally saved documents may be lost.
+    </p>
+
+    <h2>12. Children's Privacy</h2>
+    <p>
+      Smart Scanner's declared target audience is adults
+      aged 18 and older. The application is not directed
+      toward children.
+    </p>
+    <p>
+      Applicable advertising privacy and consent
+      requirements will be reviewed before enabling
+      production advertisements.
+    </p>
+
+    <h2>13. Policy Updates</h2>
+    <p>
+      This policy may be updated when Smart Scanner's
+      features, third-party services or data practices
+      change. The effective date will be revised accordingly.
+    </p>
+
+    <h2>14. Contact</h2>
+    <p>
+      For privacy questions or concerns, please contact:
+    </p>
     <p>
       Developer: Pravin chavan
     </p>
@@ -170,9 +313,10 @@
         cpravin456@gmail.com
       </a>
     </p>
-
     <p>
-      <a href="index.html">Back to Smart Scanner homepage</a>
+      <a href="index.html">
+        Back to Smart Scanner homepage
+      </a>
     </p>
   </main>
 
